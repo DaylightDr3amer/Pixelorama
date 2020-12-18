@@ -498,4 +498,3 @@ func _on_OpacitySlider_value_changed(value) -> void:
 
 func _on_OnionSkinningSettings_popup_hide() -> void:
 	Global.can_draw = true
-

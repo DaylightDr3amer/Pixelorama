@@ -16,14 +16,24 @@ func _ready() -> void:
 	label = Global.find_node_by_name(self, "Label")
 	line_edit = Global.find_node_by_name(self, "LineEdit")
 
+	# Reload button texture themes after they're created (or reloaded, see res://src/Classes/Project.gd:layers_changed())
+	for button in [visibility_button, lock_button, linked_button]:
+		var texture: TextureRect = button.get_child(0)
+		var last_backslash = texture.texture.resource_path.get_base_dir().find_last("/")
+		var button_category = texture.texture.resource_path.get_base_dir().right(last_backslash + 1)
+		var normal_file_name = texture.texture.resource_path.get_file()
+		var theme_type := Global.theme_type
+		if theme_type == Global.Theme_Types.CARAMEL or (theme_type == Global.Theme_Types.BLUE and button_category != "tools"):
+			theme_type = Global.Theme_Types.DARK
+
+		var theme_type_string : String = Global.Theme_Types.keys()[theme_type].to_lower()
+		texture.texture = load("res://assets/graphics/%s_themes/%s/%s" % [theme_type_string, button_category, normal_file_name])
+
+
 	if Global.current_project.layers[i].visible:
 		Global.change_button_texturerect(visibility_button.get_child(0), "layer_visible.png")
-		visibility_button.get_child(0).rect_size = Vector2(24, 14)
-		visibility_button.get_child(0).rect_position = Vector2(4, 9)
 	else:
 		Global.change_button_texturerect(visibility_button.get_child(0), "layer_invisible.png")
-		visibility_button.get_child(0).rect_size = Vector2(24, 8)
-		visibility_button.get_child(0).rect_position = Vector2(4, 12)
 
 	if Global.current_project.layers[i].locked:
 		Global.change_button_texturerect(lock_button.get_child(0), "lock.png")

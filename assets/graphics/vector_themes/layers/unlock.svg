@@ -9,8 +9,8 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:export-ydpi="96"
    inkscape:export-xdpi="96"
-   inkscape:export-filename="/home/entity/github/Pixelorama/assets/graphics/vector_themes/layers/layer_visible.png"
-   sodipodi:docname="layer_visible.svg"
+   inkscape:export-filename="/home/entity/github/Pixelorama/assets/graphics/vector_themes/layers/unlock.png"
+   sodipodi:docname="unlock.svg"
    inkscape:version="1.0 (4035a4f, 2020-05-01)"
    id="svg8"
    version="1.1"
@@ -34,6 +34,8 @@
     </filter>
   </defs>
   <sodipodi:namedview
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-bbox="false"
      inkscape:snap-smooth-nodes="true"
      inkscape:window-maximized="1"
      inkscape:window-y="0"
@@ -42,13 +44,13 @@
      inkscape:window-width="1920"
      inkscape:pagecheckerboard="true"
      units="px"
-     showgrid="true"
+     showgrid="false"
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="12.910646"
-     inkscape:cx="10.596645"
-     inkscape:zoom="45.254834"
+     inkscape:cy="12.21285"
+     inkscape:cx="16.294367"
+     inkscape:zoom="22.627417"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -77,23 +79,44 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
+    <rect
+       ry="0.39687502"
+       y="2.579555"
+       x="1.4552083"
+       height="2.9104166"
+       width="3.7041664"
+       id="rect2419"
+       style="opacity:0.999;fill:#4d4f52;fill-opacity:1;stroke:none;stroke-width:1.09141;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       d="M 4.088494,3.3128328 A 0.78747624,0.79929131 0 0 1 3.3023922,4.1121229 0.78747624,0.79929131 0 0 1 2.5135463,3.3156229 0.78747624,0.79929131 0 0 1 3.2968946,2.5135525 0.78747624,0.79929131 0 0 1 4.0884748,3.3072528"
+       d="M 2.1167153,2.4365455 A 1.190625,1.1906798 0 0 1 2.7436751,1.3984973 1.190625,1.1906798 0 0 1 3.9552979,1.4484352"
+       sodipodi:arc-type="arc"
+       sodipodi:open="true"
+       sodipodi:end="5.2878926"
+       sodipodi:start="3.1506404"
+       sodipodi:ry="1.1906798"
+       sodipodi:rx="1.190625"
+       sodipodi:cy="2.4473183"
+       sodipodi:cx="3.3072915"
+       sodipodi:type="arc"
+       id="path2439"
+       style="opacity:0.999;fill:none;fill-opacity:1;stroke:#4d4f52;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path2443"
+       d="m 2.1166666,2.4472634 v 0.79375"
+       style="fill:none;stroke:#4d4f52;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       d="M 3.8364583,4.1670551 A 0.52916676,0.52916676 0 0 1 3.3082151,4.6962211 0.52916676,0.52916676 0 0 1 2.778128,4.1689023 0.52916676,0.52916676 0 0 1 3.3045208,3.6378956 0.52916676,0.52916676 0 0 1 3.8364454,4.1633609"
        sodipodi:arc-type="arc"
        sodipodi:open="true"
        sodipodi:end="6.276204"
        sodipodi:start="0"
-       sodipodi:ry="0.79929131"
-       sodipodi:rx="0.78747624"
-       sodipodi:cy="3.3128328"
-       sodipodi:cx="3.3010178"
+       sodipodi:ry="0.52916676"
+       sodipodi:rx="0.52916676"
+       sodipodi:cy="4.1670551"
+       sodipodi:cx="3.3072915"
        sodipodi:type="arc"
-       id="path1567"
-       style="display:inline;fill:none;stroke:#66686c;stroke-width:0.429006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       sodipodi:nodetypes="ccc"
-       d="m 0.92604162,3.3072915 c 1.45520828,1.4552083 3.30729158,1.4552083 4.49791648,0 -1.1906249,-1.4552083 -3.0427082,-1.4552083 -4.49791648,0 z"
-       style="opacity:0.999;fill:#505050;fill-opacity:0.1111;stroke:#7f8287;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1591)"
-       id="path1544" />
+       id="path2445"
+       style="opacity:0.999;fill:#2e2f32;fill-opacity:1;stroke:none;stroke-width:0.79375;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>

@@ -18,8 +18,23 @@
    height="24"
    width="24">
   <defs
-     id="defs2" />
+     id="defs2">
+    <filter
+       height="1.0000155"
+       y="-7.7333335e-06"
+       width="1.000007"
+       x="-3.48e-06"
+       id="filter1591"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur1593"
+         stdDeviation="7.6729163e-06"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
   <sodipodi:namedview
+     inkscape:snap-smooth-nodes="true"
      inkscape:window-maximized="1"
      inkscape:window-y="0"
      inkscape:window-x="1440"
@@ -31,9 +46,9 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="12.018047"
-     inkscape:cx="10.269654"
-     inkscape:zoom="42.868349"
+     inkscape:cy="12.910646"
+     inkscape:cx="10.596645"
+     inkscape:zoom="45.254834"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -41,6 +56,8 @@
      pagecolor="#ffffff"
      id="base">
     <inkscape:grid
+       spacingy="0.13229166"
+       spacingx="0.13229166"
        id="grid833"
        type="xygrid" />
   </sodipodi:namedview>
@@ -62,8 +79,8 @@
      inkscape:label="Layer 1">
     <path
        sodipodi:nodetypes="cc"
-       id="path1544"
-       d="m 1.0583333,3.175 c 1.7578561,1.512116 3.2220879,1.3069893 4.4979166,0"
-       style="fill:none;stroke:#505050;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       d="m 0.92604162,3.3072915 c 1.45520828,1.4552083 3.30729158,1.4552083 4.49791648,0"
+       style="opacity:0.999;fill:none;fill-opacity:0.1111;stroke:#4d4e52;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1591)"
+       id="path1544" />
   </g>
 </svg>

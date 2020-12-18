@@ -164,17 +164,12 @@ focus_mode = 0
 mouse_default_cursor_shape = 2
 
 [node name="TextureRect" type="TextureRect" parent="AnimationContainer/TimelineContainer/TimelineButtons/LayerButtonPanelContainer/LayerButtons/AddLayer"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -9.0
-margin_top = -12.0
-margin_right = 9.0
-margin_bottom = 12.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 texture = ExtResource( 2 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -192,17 +187,12 @@ mouse_default_cursor_shape = 8
 disabled = true
 
 [node name="TextureRect" type="TextureRect" parent="AnimationContainer/TimelineContainer/TimelineButtons/LayerButtonPanelContainer/LayerButtons/RemoveLayer"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -7.0
-margin_top = -7.0
-margin_right = 7.0
-margin_bottom = 7.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 texture = ExtResource( 3 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -220,17 +210,12 @@ mouse_default_cursor_shape = 8
 disabled = true
 
 [node name="TextureRect" type="TextureRect" parent="AnimationContainer/TimelineContainer/TimelineButtons/LayerButtonPanelContainer/LayerButtons/MoveUpLayer"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -7.0
-margin_top = -8.0
-margin_right = 7.0
-margin_bottom = 8.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 texture = ExtResource( 4 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -248,17 +233,12 @@ mouse_default_cursor_shape = 8
 disabled = true
 
 [node name="TextureRect" type="TextureRect" parent="AnimationContainer/TimelineContainer/TimelineButtons/LayerButtonPanelContainer/LayerButtons/MoveDownLayer"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -7.0
-margin_top = -8.0
-margin_right = 7.0
-margin_bottom = 8.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 texture = ExtResource( 5 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -275,17 +255,12 @@ focus_mode = 0
 mouse_default_cursor_shape = 2
 
 [node name="TextureRect" type="TextureRect" parent="AnimationContainer/TimelineContainer/TimelineButtons/LayerButtonPanelContainer/LayerButtons/CloneLayer"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -8.5
-margin_top = -10.0
-margin_right = 8.5
-margin_bottom = 10.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 texture = ExtResource( 7 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -303,17 +278,12 @@ mouse_default_cursor_shape = 8
 disabled = true
 
 [node name="TextureRect" type="TextureRect" parent="AnimationContainer/TimelineContainer/TimelineButtons/LayerButtonPanelContainer/LayerButtons/MergeDownLayer"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -6.0
-margin_top = -12.0
-margin_right = 6.0
-margin_bottom = 12.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 size_flags_horizontal = 0
 size_flags_vertical = 0
 texture = ExtResource( 6 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }

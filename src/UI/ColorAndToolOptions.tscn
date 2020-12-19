@@ -7,6 +7,8 @@
 [sub_resource type="ShortCut" id=1]
 
 [node name="ColorAndToolOptions" type="VBoxContainer"]
+anchor_left = -0.000109613
+anchor_right = -0.000109625
 margin_right = 330.0
 margin_bottom = 255.0
 size_flags_vertical = 3

@@ -35,7 +35,7 @@ margin_bottom = 462.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
 margin_left = 312.0
-margin_right = 556.0
+margin_right = 552.0
 margin_bottom = 462.0
 size_flags_horizontal = 3
 __meta__ = {
@@ -43,7 +43,7 @@ __meta__ = {
 }
 
 [node name="Panel" type="Panel" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
-margin_right = 244.0
+margin_right = 240.0
 margin_bottom = 408.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -66,7 +66,7 @@ columns = 8
 
 [node name="Label" type="Label" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
 margin_top = 412.0
-margin_right = 244.0
+margin_right = 240.0
 margin_bottom = 426.0
 text = "Use current left & right colors"
 align = 1
@@ -74,12 +74,12 @@ autowrap = true
 
 [node name="CenterContainer" type="CenterContainer" parent="VBoxContainer/HBoxContainer/VBoxContainer"]
 margin_top = 430.0
-margin_right = 244.0
+margin_right = 240.0
 margin_bottom = 462.0
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/HBoxContainer/VBoxContainer/CenterContainer"]
-margin_left = 56.0
-margin_right = 188.0
+margin_left = 54.0
+margin_right = 186.0
 margin_bottom = 32.0
 
 [node name="LeftColor" type="Button" parent="VBoxContainer/HBoxContainer/VBoxContainer/CenterContainer/HBoxContainer"]
@@ -117,27 +117,23 @@ __meta__ = {
 }
 
 [node name="ColorButtons" type="VBoxContainer" parent="VBoxContainer/HBoxContainer"]
-margin_left = 560.0
+margin_left = 556.0
 margin_right = 580.0
 margin_bottom = 462.0
 
 [node name="AddSwatchButton" type="Button" parent="VBoxContainer/HBoxContainer/ColorButtons" groups=[
 "UIButtons",
 ]]
-margin_right = 20.0
-margin_bottom = 20.0
+margin_right = 24.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 24, 24 )
 mouse_default_cursor_shape = 2
 
 [node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/ColorButtons/AddSwatchButton"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -6.0
-margin_top = -6.0
-margin_right = 6.0
-margin_bottom = 6.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 texture = ExtResource( 2 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -145,22 +141,17 @@ __meta__ = {
 [node name="RemoveSwatchButton" type="Button" parent="VBoxContainer/HBoxContainer/ColorButtons" groups=[
 "UIButtons",
 ]]
-margin_top = 24.0
-margin_right = 20.0
-margin_bottom = 44.0
-rect_min_size = Vector2( 20, 0 )
+margin_top = 28.0
+margin_right = 24.0
+margin_bottom = 52.0
+rect_min_size = Vector2( 24, 24 )
 mouse_default_cursor_shape = 2
 
 [node name="TextureRect" type="TextureRect" parent="VBoxContainer/HBoxContainer/ColorButtons/RemoveSwatchButton"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -6.0
-margin_top = -1.0
-margin_right = 6.0
-margin_bottom = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 texture = ExtResource( 3 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }

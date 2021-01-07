@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="96"
+   inkscape:export-filename="/home/entity/github/Pixelorama/assets/graphics/vector_themes/timeline/onion_skinning_off.png"
+   width="24"
+   height="24"
+   viewBox="0 0 6.3499999 6.3500002"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   sodipodi:docname="onion_skinning_off.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:snap-object-midpoints="true"
+     inkscape:bbox-nodes="false"
+     inkscape:object-nodes="false"
+     inkscape:object-paths="false"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="true"
+     id="base"
+     pagecolor="#353535"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="32"
+     inkscape:cx="8.4827741"
+     inkscape:cy="11.69422"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1007"
+     inkscape:window-x="1440"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid833"
+       empspacing="4" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 3.9687504,3.1750002 A 0.79375017,0.79375017 0 0 1 3.1763855,3.9687491 0.79375017,0.79375017 0 0 1 2.3812549,3.1777709 0.79375017,0.79375017 0 0 1 3.1708441,2.3812609 0.79375017,0.79375017 0 0 1 3.968731,3.1694588"
+       sodipodi:arc-type="arc"
+       sodipodi:open="true"
+       sodipodi:end="6.276204"
+       sodipodi:start="0"
+       sodipodi:ry="0.79375017"
+       sodipodi:rx="0.79375017"
+       sodipodi:cy="3.1750002"
+       sodipodi:cx="3.1750002"
+       sodipodi:type="arc"
+       id="path869"
+       style="opacity:0.999;fill:none;fill-opacity:1;stroke:#f5fcff;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <path
+       d="M 2.6323444,4.9458018 A 1.8520836,1.8520836 0 0 1 1.3229168,3.1743169 1.8520836,1.8520836 0 0 1 2.6336512,1.4037987"
+       sodipodi:arc-type="arc"
+       sodipodi:open="true"
+       sodipodi:end="4.4157665"
+       sodipodi:start="1.8681567"
+       sodipodi:ry="1.8520836"
+       sodipodi:rx="1.8520836"
+       sodipodi:cy="3.1750002"
+       sodipodi:cx="3.1750002"
+       sodipodi:type="arc"
+       id="path871"
+       style="opacity:0.999;fill:none;fill-opacity:1;stroke:#63696a;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal" />
+    <path
+       transform="scale(-1,1)"
+       style="opacity:0.999;fill:none;fill-opacity:1;stroke:#63696a;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path875"
+       sodipodi:type="arc"
+       sodipodi:cx="-3.175"
+       sodipodi:cy="3.175"
+       sodipodi:rx="1.8520834"
+       sodipodi:ry="1.8520833"
+       sodipodi:start="1.8681567"
+       sodipodi:end="4.4157665"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M -3.7176557,4.9458013 A 1.8520834,1.8520833 0 0 1 -5.0270833,3.1743166 1.8520834,1.8520833 0 0 1 -3.7163489,1.4037987" />
+  </g>
+</svg>

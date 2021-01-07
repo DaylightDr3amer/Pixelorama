@@ -808,9 +808,9 @@ content_margin_left = 6.0
 content_margin_right = 6.0
 content_margin_top = 4.0
 content_margin_bottom = 4.0
-bg_color = Color( 0.0901961, 0.0941176, 0.0980392, 1 )
+bg_color = Color( 0.0901961, 0.0941176, 0.0980392, 0 )
 border_width_bottom = 2
-border_color = Color( 0.129412, 0.137255, 0.141176, 1 )
+border_color = Color( 0.305882, 0.333333, 0.345098, 1 )
 
 [sub_resource type="StyleBoxFlat" id=91]
 content_margin_left = 6.0
@@ -847,8 +847,8 @@ content_margin_bottom = 4.0
 bg_color = Color( 0.0627451, 0.0666667, 0.0745098, 1 )
 
 [sub_resource type="StyleBoxFlat" id=96]
-content_margin_left = 2.0
-content_margin_right = 2.0
+content_margin_left = 4.0
+content_margin_right = 4.0
 content_margin_top = 2.0
 content_margin_bottom = 2.0
 bg_color = Color( 0.0941176, 0.101961, 0.105882, 1 )
@@ -1475,7 +1475,7 @@ CheckBox/colors/font_color_hover_pressed = Color( 1, 1, 1, 1 )
 CheckBox/colors/font_color_pressed = Color( 1, 1, 1, 1 )
 CheckBox/colors/icon_color_hover = Color( 1.15, 1.15, 1.15, 1 )
 CheckBox/constants/check_vadjust = 0
-CheckBox/constants/hseparation = 6
+CheckBox/constants/hseparation = 8
 CheckBox/fonts/font = null
 CheckBox/icons/checked = ExtResource( 3 )
 CheckBox/icons/radio_checked = ExtResource( 2 )

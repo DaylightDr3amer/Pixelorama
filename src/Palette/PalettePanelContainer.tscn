@@ -135,6 +135,7 @@ margin_bottom = 241.0
 rect_min_size = Vector2( 0, 100 )
 size_flags_horizontal = 3
 size_flags_vertical = 3
+scroll_horizontal_enabled = false
 
 [node name="CenterPalette" type="CenterContainer" parent="PaletteVBoxContainer/ScrollPalette"]
 margin_right = 286.0
@@ -144,12 +145,12 @@ size_flags_horizontal = 3
 margin_left = 143.0
 margin_right = 143.0
 size_flags_horizontal = 3
-columns = 10
+columns = 9
 script = ExtResource( 1 )
 
 [node name="DummyBtn" type="Button" parent="PaletteVBoxContainer/ScrollPalette/CenterPalette/PaletteContainer"]
 visible = false
-margin_right = 12.0
+margin_right = 63.0
 margin_bottom = 20.0
 group = SubResource( 1 )
 text = "Dummy"

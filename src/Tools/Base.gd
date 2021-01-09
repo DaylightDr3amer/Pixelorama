@@ -18,6 +18,27 @@ func _ready():
 	$Mirror/Horizontal.pressed = tool_slot.horizontal_mirror
 	$Mirror/Vertical.pressed = tool_slot.vertical_mirror
 
+	for button in $Mirror.get_children():
+		if button is TextureButton:
+			var last_backslash = button.texture_normal.resource_path.get_base_dir().find_last("/")
+			var button_category = button.texture_normal.resource_path.get_base_dir().right(last_backslash + 1)
+			var normal_file_name = button.texture_normal.resource_path.get_file()
+			var theme_type := Global.theme_type
+			if theme_type == Global.Theme_Types.BLUE:
+				theme_type = Global.Theme_Types.DARK
+
+			var theme_type_string : String = Global.Theme_Types.keys()[theme_type].to_lower()
+			button.texture_normal = load("res://assets/graphics/%s_themes/%s/%s" % [theme_type_string, button_category, normal_file_name])
+			if button.texture_pressed:
+				var pressed_file_name = button.texture_pressed.resource_path.get_file()
+				button.texture_pressed = load("res://assets/graphics/%s_themes/%s/%s" % [theme_type_string, button_category, pressed_file_name])
+			if button.texture_hover:
+				var hover_file_name = button.texture_hover.resource_path.get_file()
+				button.texture_hover = load("res://assets/graphics/%s_themes/%s/%s" % [theme_type_string, button_category, hover_file_name])
+			if button.texture_disabled and button.texture_disabled == StreamTexture:
+				var disabled_file_name = button.texture_disabled.resource_path.get_file()
+				button.texture_disabled = load("res://assets/graphics/%s_themes/%s/%s" % [theme_type_string, button_category, disabled_file_name])
+
 
 func _on_PixelPerfect_toggled(button_pressed : bool):
 	tool_slot.pixel_perfect = button_pressed

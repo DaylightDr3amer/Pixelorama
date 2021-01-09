@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:export-ydpi="96.000008"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-filename="/home/entity/github/Pixelorama/assets/graphics/vector_themes/tools/colorpicker.png"
+   sodipodi:docname="colorpicker.svg"
+   inkscape:version="1.0 (4035a4f, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 8.4666667 8.4666667"
+   height="32"
+   width="32">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="1440"
+     inkscape:window-height="1007"
+     inkscape:window-width="1920"
+     inkscape:pagecheckerboard="true"
+     units="px"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="15.279083"
+     inkscape:cx="16.033842"
+     inkscape:zoom="22.4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#424242"
+     id="base">
+    <inkscape:grid
+       empspacing="4"
+       empopacity="0.27058824"
+       empcolor="#cacaca"
+       opacity="0.10980392"
+       color="#c6c6c6"
+       id="grid833"
+       type="xygrid" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path2051"
+       d="M 4.4979167,2.9104167 1.8520834,5.55625 V 6.6145833 H 2.9104167 L 5.55625,3.96875"
+       style="opacity:0.999;fill:none;stroke:#ecf2f4;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path2053"
+       d="M 3.96875,2.3812499 6.0854166,4.4979166"
+       style="opacity:0.999;fill:none;stroke:#ecf2f4;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <g
+       transform="rotate(45,5.8756304,1.9843747)"
+       id="g2063">
+      <path
+         style="opacity:0.999;fill:#ecf2f4;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path2055"
+         sodipodi:type="arc"
+         sodipodi:cx="6.3500195"
+         sodipodi:cy="2.1222081"
+         sodipodi:rx="0.79374999"
+         sodipodi:ry="0.79374999"
+         sodipodi:start="0"
+         sodipodi:end="6.276204"
+         sodipodi:open="true"
+         sodipodi:arc-type="arc"
+         d="M 7.1437694,2.1222081 A 0.79374999,0.79374999 0 0 1 6.3514048,2.9159569 0.79374999,0.79374999 0 0 1 5.5562743,2.1249788 0.79374999,0.79374999 0 0 1 6.3458634,1.328469 0.79374999,0.79374999 0 0 1 7.1437501,2.1166668" />
+      <rect
+         style="opacity:0.999;fill:#ecf2f4;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect2059"
+         width="1.5875"
+         height="1.5875"
+         x="5.5562501"
+         y="2.1166666" />
+    </g>
+  </g>
+  <inkscape:templateinfo>
+    <inkscape:name>PxTool</inkscape:name>
+    <inkscape:author>DaylightDr3amer</inkscape:author>
+    <inkscape:shortdesc>For 32px icons</inkscape:shortdesc>
+    <inkscape:date>2021-01-08</inkscape:date>
+    <inkscape:keywords>32px, icon, pixel</inkscape:keywords>
+  </inkscape:templateinfo>
+</svg>

@@ -76,16 +76,11 @@ mouse_default_cursor_shape = 2
 toggle_mode = true
 
 [node name="TextureRect" type="TextureRect" parent="HBoxContainer/VBoxContainer/PlayButton"]
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-margin_left = -3.5
-margin_top = -6.0
-margin_right = 3.5
-margin_bottom = 6.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 mouse_default_cursor_shape = 2
 texture = ExtResource( 7 )
+stretch_mode = 4
 __meta__ = {
 "_edit_use_anchors_": false
 }

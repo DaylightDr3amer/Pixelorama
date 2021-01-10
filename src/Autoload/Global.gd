@@ -63,6 +63,8 @@ var checker_color_2 := Color(0.34, 0.35, 0.34, 1)
 var checker_follow_movement := false
 var checker_follow_scale := false
 var tilemode_opacity := 1.0
+var fps_limit_focus := true
+var fps_limit := 0
 
 var autosave_interval := 1.0
 var enable_autosave := true
@@ -452,6 +454,11 @@ Press %s to move the content""") % [InputMap.get_action_list("left_rectangle_sel
 %s for left mouse button
 %s for right mouse button""") % [InputMap.get_action_list("left_zoom_tool")[0].as_text(), InputMap.get_action_list("right_zoom_tool")[0].as_text()]
 
+	var pan_tool : BaseButton = find_node_by_name(root, "Pan")
+	pan_tool.hint_tooltip = tr("""Pan
+
+%s for left mouse button
+%s for right mouse button""") % [InputMap.get_action_list("left_pan_tool")[0].as_text(), InputMap.get_action_list("right_pan_tool")[0].as_text()]
 
 	var color_picker : BaseButton = find_node_by_name(root, "ColorPicker")
 	color_picker.hint_tooltip = tr("""Color Picker

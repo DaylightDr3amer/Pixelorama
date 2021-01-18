@@ -3,7 +3,11 @@ extends AcceptDialog
 # Preferences table: [Prop name in Global, relative node path, value type, default value]
 var preferences = [
 	["open_last_project", "Startup/StartupContainer/OpenLastProject", "pressed", Global.open_last_project],
+
+	["preferred_icon_type", "Interface/ThemeOptions/PreferredIcons", "selected", Global.preferred_icon_type],
+	["fallback_icons", "Interface/ThemeOptions/FallbackIcons", "selected", Global.fallback_icons],
 	["shrink", "Interface/ShrinkContainer/ShrinkHSlider", "value", Global.shrink],
+
 	["smooth_zoom", "Canvas/ZoomOptions/SmoothZoom", "pressed", Global.smooth_zoom],
 	["pressure_sensitivity_mode", "Startup/PressureSentivity/PressureSensitivityOptionButton", "selected", Global.pressure_sensitivity_mode],
 	["show_left_tool_icon", "Indicators/IndicatorsContainer/LeftToolIconCheckbox", "pressed", Global.show_left_tool_icon],

@@ -115,7 +115,7 @@ text = "System Language"
 visible = false
 margin_top = 28.0
 margin_right = 498.0
-margin_bottom = 66.0
+margin_bottom = 130.0
 
 [node name="ShrinkContainer" type="HBoxContainer" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface"]
 margin_right = 498.0
@@ -123,21 +123,21 @@ margin_bottom = 20.0
 
 [node name="Label" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ShrinkContainer"]
 margin_top = 3.0
-margin_right = 68.0
+margin_right = 84.0
 margin_bottom = 17.0
 text = "Display Scale"
 
 [node name="ShrinkLabel" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ShrinkContainer"]
-margin_left = 72.0
+margin_left = 88.0
 margin_top = 3.0
-margin_right = 122.0
+margin_right = 138.0
 margin_bottom = 17.0
 rect_min_size = Vector2( 50, 0 )
 text = "1"
 align = 2
 
 [node name="ShrinkHSlider" type="HSlider" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ShrinkContainer"]
-margin_left = 126.0
+margin_left = 142.0
 margin_right = 446.0
 margin_bottom = 16.0
 mouse_default_cursor_shape = 2
@@ -157,19 +157,57 @@ mouse_default_cursor_shape = 2
 text = "Apply"
 
 [node name="HSeparator" type="HSeparator" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface"]
-margin_right = 40.0
-margin_bottom = 4.0
-
-[node name="Label" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface"]
 margin_top = 24.0
 margin_right = 498.0
-margin_bottom = 38.0
+margin_bottom = 28.0
+
+[node name="ThemeOptions" type="GridContainer" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface"]
+margin_top = 32.0
+margin_right = 498.0
+margin_bottom = 76.0
+columns = 3
+
+[node name="PreferredLabel" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ThemeOptions"]
+margin_right = 175.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 130, 0 )
+size_flags_vertical = 1
+text = "Preferred icon type: "
+
+[node name="PreferredIcons" type="OptionButton" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ThemeOptions"]
+margin_left = 179.0
+margin_right = 286.0
+margin_bottom = 20.0
+text = "Vector (.svg)"
+items = [ "Raster (.png)", null, false, 0, null, "Vector (.svg)", null, false, 1, null ]
+selected = 1
+
+[node name="FallbackLabel" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ThemeOptions"]
+margin_left = 290.0
+margin_right = 420.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 130, 0 )
+size_flags_vertical = 1
+text = "Fallback icons:"
+
+[node name="FallbackIcons" type="OptionButton" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/ThemeOptions"]
+margin_top = 24.0
+margin_right = 175.0
+margin_bottom = 44.0
+text = "Pick from default icons"
+items = [ "Pick from default icons", null, false, 0, null, "Pick from theme icons", null, false, 1, null ]
+selected = 0
+
+[node name="Label" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface"]
+margin_top = 80.0
+margin_right = 498.0
+margin_bottom = 94.0
 text = "Themes"
 
 [node name="Themes" type="HBoxContainer" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface"]
-margin_top = 52.0
+margin_top = 98.0
 margin_right = 498.0
-margin_bottom = 56.0
+margin_bottom = 102.0
 script = ExtResource( 5 )
 
 [node name="ThemeButtons" type="VBoxContainer" parent="HSplitContainer/ScrollContainer/VBoxContainer/Interface/Themes"]
@@ -189,9 +227,9 @@ custom_constants/separation = 12
 
 [node name="Canvas" type="VBoxContainer" parent="HSplitContainer/ScrollContainer/VBoxContainer"]
 visible = false
-margin_top = 28.0
+margin_top = 134.0
 margin_right = 498.0
-margin_bottom = 384.0
+margin_bottom = 490.0
 
 [node name="ZoomLabel" type="Label" parent="HSplitContainer/ScrollContainer/VBoxContainer/Canvas"]
 margin_right = 498.0

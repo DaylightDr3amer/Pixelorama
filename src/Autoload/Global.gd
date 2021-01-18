@@ -5,6 +5,8 @@ enum Grid_Types {CARTESIAN, ISOMETRIC, ALL}
 enum Pressure_Sensitivity {NONE, ALPHA, SIZE, ALPHA_AND_SIZE}
 enum Direction {UP, DOWN, LEFT, RIGHT}
 enum Theme_Types {DARK, BLUE, CARAMEL, LIGHT, VECTOR}
+enum Icon_Types {RASTER, VECTOR}
+enum Icon_Fallback {THEME, DEFAULT}
 enum Tile_Mode {NONE, BOTH, XAXIS, YAXIS}
 # Stuff for arrowkey-based canvas movements nyaa ^.^
 const low_speed_move_rate := 150.0
@@ -68,6 +70,10 @@ var fps_limit := 0
 
 var autosave_interval := 1.0
 var enable_autosave := true
+
+# Themes options
+var preferred_icon_type: int = Icon_Types.VECTOR
+var fallback_icons: int = Icon_Fallback.THEME
 
 # Tools & options
 var show_left_tool_icon := true

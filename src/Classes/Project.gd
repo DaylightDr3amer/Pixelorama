@@ -5,7 +5,7 @@ class_name Project extends Reference
 var name := "" setget name_changed
 var size : Vector2 setget size_changed
 var undo_redo : UndoRedo
-var tile_mode : int = Global.Tile_Mode.NONE
+var tile_mode : int = Global.TileMode.NONE
 var undos := 0 # The number of times we added undo properties
 var has_changed := false setget has_changed_changed
 var frames := [] setget frames_changed # Array of Frames (that contain Cels)
@@ -174,7 +174,6 @@ func change_project() -> void:
 		i += 1
 	Global.zoom_level_label.text = str(round(100 / Global.camera.zoom.x)) + " %"
 	Global.canvas.update()
-	Global.canvas.grid.isometric_polylines.clear()
 	Global.canvas.grid.update()
 	Global.canvas.pixel_grid.update()
 	Global.transparent_checker._ready()
@@ -206,7 +205,7 @@ func change_project() -> void:
 	else:
 		Global.file_menu.get_popup().set_item_text(6, tr("Export") + " %s" % (file_name + Export.file_format_string(file_format)))
 
-	for j in Global.Tile_Mode.values():
+	for j in Global.TileMode.values():
 		Global.tile_mode_submenu.set_item_checked(j, j == tile_mode)
 
 
@@ -446,7 +445,7 @@ func frame_changed(value : int) -> void:
 
 	for i in frames.size():
 		var text_color := Color.white
-		if Global.theme_type == Global.Theme_Types.CARAMEL || Global.theme_type == Global.Theme_Types.LIGHT:
+		if Global.theme_type == Global.ThemeTypes.CARAMEL || Global.theme_type == Global.ThemeTypes.LIGHT:
 			text_color = Color.black
 		Global.frame_ids.get_child(i).add_color_override("font_color", text_color)
 		for layer in layers: # De-select all the other frames
@@ -566,3 +565,16 @@ func has_changed_changed(value : bool) -> void:
 		Global.tabs.set_tab_title(Global.tabs.current_tab, name + "(*)")
 	else:
 		Global.tabs.set_tab_title(Global.tabs.current_tab, name)
+
+
+func get_tile_mode_rect() -> Rect2:
+	match Global.current_project.tile_mode:
+		Global.TileMode.NONE:
+			return Rect2(Vector2.ZERO, size)
+		Global.TileMode.X_AXIS:
+			return Rect2(Vector2(-1, 0) * size, Vector2(3, 1) * size)
+		Global.TileMode.Y_AXIS:
+			return Rect2(Vector2(0, -1) * size, Vector2(1, 3) * size)
+		Global.TileMode.BOTH:
+			return Rect2(Vector2(-1, -1) * size, Vector2(3, 3) * size)
+	return Rect2()

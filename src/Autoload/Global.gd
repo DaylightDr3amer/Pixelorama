@@ -7,7 +7,7 @@ enum Direction {UP, DOWN, LEFT, RIGHT}
 enum ThemeTypes {DARK, BLUE, CARAMEL, LIGHT, VECTOR}
 enum Icon_Types {RASTER, VECTOR}
 enum Icon_Fallback {THEME, DEFAULT}
-enum TileMode {NONE, BOTH, XAXIS, YAXIS}
+enum TileMode {NONE, BOTH, X_AXIS, Y_AXIS}
 # Stuff for arrowkey-based canvas movements nyaa ^.^
 const low_speed_move_rate := 150.0
 const medium_speed_move_rate := 750.0
@@ -56,7 +56,11 @@ var default_fill_color := Color(0, 0, 0, 0)
 var grid_type = GridTypes.CARTESIAN
 var grid_width := 2
 var grid_height := 2
-var grid_isometric_cell_size := 2
+var grid_isometric_cell_bounds_width := 16
+var grid_isometric_cell_bounds_height := 8
+var grid_offset_x := 0
+var grid_offset_y := 0
+var grid_draw_over_tile_mode := false
 var grid_color := Color.black
 var pixel_grid_show_at_zoom := 1500.0 # percentage
 var pixel_grid_color := Color("91212121")
@@ -237,8 +241,8 @@ func _ready() -> void:
 	tile_mode_submenu.add_radio_check_item("None", TileMode.NONE)
 	tile_mode_submenu.set_item_checked(TileMode.NONE, true)
 	tile_mode_submenu.add_radio_check_item("Tiled In Both Axis", TileMode.BOTH)
-	tile_mode_submenu.add_radio_check_item("Tiled In X Axis", TileMode.XAXIS)
-	tile_mode_submenu.add_radio_check_item("Tiled In Y Axis", TileMode.YAXIS)
+	tile_mode_submenu.add_radio_check_item("Tiled In X Axis", TileMode.X_AXIS)
+	tile_mode_submenu.add_radio_check_item("Tiled In Y Axis", TileMode.Y_AXIS)
 	tile_mode_submenu.hide_on_checkable_item_selection = false
 
 	new_image_dialog = find_node_by_name(root, "CreateNewImage")
@@ -349,7 +353,6 @@ func undo(_frame_index := -1, _layer_index := -1, project : Project = current_pr
 
 		if action_name == "Scale":
 			canvas.camera_zoom()
-			Global.canvas.grid.isometric_polylines.clear()
 			Global.canvas.grid.update()
 			Global.canvas.pixel_grid.update()
 			Global.cursor_position_label.text = "[%s×%s]" % [project.size.x, project.size.y]
@@ -381,7 +384,6 @@ func redo(_frame_index := -1, _layer_index := -1, project : Project = current_pr
 
 		if action_name == "Scale":
 			canvas.camera_zoom()
-			Global.canvas.grid.isometric_polylines.clear()
 			Global.canvas.grid.update()
 			Global.canvas.pixel_grid.update()
 			Global.cursor_position_label.text = "[%s×%s]" % [project.size.x, project.size.y]
